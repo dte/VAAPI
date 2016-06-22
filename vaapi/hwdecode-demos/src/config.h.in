@@ -1,0 +1,184 @@
+/* src/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define if building universal (internal helper macro) */
+#undef AC_APPLE_UNIVERSAL_BUILD
+
+/* Defined if libavcodec is available */
+#undef HAVE_AVCODEC
+
+/* Defined if libavformat is available */
+#undef HAVE_AVFORMAT
+
+/* Defined if libavutil is available */
+#undef HAVE_AVUTIL
+
+/* Defined if cairo is available */
+#undef HAVE_CAIRO
+
+/* Define to 1 if you have the `clock_gettime' function. */
+#undef HAVE_CLOCK_GETTIME
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <drm_fourcc.h> header file. */
+#undef HAVE_DRM_FOURCC_H
+
+/* Define to 1 if you have the <ffmpeg/avcodec.h> header file. */
+#undef HAVE_FFMPEG_AVCODEC_H
+
+/* Define to 1 if you have the <ffmpeg/avformat.h> header file. */
+#undef HAVE_FFMPEG_AVFORMAT_H
+
+/* Define to 1 if you have the <ffmpeg/avutil.h> header file. */
+#undef HAVE_FFMPEG_AVUTIL_H
+
+/* Define to 1 if you have the <ffmpeg/swscale.h> header file. */
+#undef HAVE_FFMPEG_SWSCALE_H
+
+/* Define to 1 if you have the <GL/glu.h> header file. */
+#undef HAVE_GL_GLU_H
+
+/* Define to 1 if you have the <GL/glx.h> header file. */
+#undef HAVE_GL_GLX_H
+
+/* Define to 1 if you have the <GL/gl.h> header file. */
+#undef HAVE_GL_GL_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <libavcodec/avcodec.h> header file. */
+#undef HAVE_LIBAVCODEC_AVCODEC_H
+
+/* Define to 1 if you have the <libavcodec/vaapi.h> header file. */
+#undef HAVE_LIBAVCODEC_VAAPI_H
+
+/* Define to 1 if you have the <libavformat/avformat.h> header file. */
+#undef HAVE_LIBAVFORMAT_AVFORMAT_H
+
+/* Define to 1 if you have the <libavutil/pixfmt.h> header file. */
+#undef HAVE_LIBAVUTIL_PIXFMT_H
+
+/* Define to 1 if you have the `c_r' library (-lc_r). */
+#undef HAVE_LIBC_R
+
+/* Define to 1 if you have the `pthread' library (-lpthread). */
+#undef HAVE_LIBPTHREAD
+
+/* Define to 1 if you have the `PTL' library (-lPTL). */
+#undef HAVE_LIBPTL
+
+/* Define to 1 if you have the `rt' library (-lrt). */
+#undef HAVE_LIBRT
+
+/* Define to 1 if you have the <libswscale/swscale.h> header file. */
+#undef HAVE_LIBSWSCALE_SWSCALE_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Defined if pthreads are available */
+#undef HAVE_PTHREADS
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Defined if libswscale is available */
+#undef HAVE_SWSCALE
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* VDPAU/MPEG-4 support */
+#undef HAVE_VDPAU_MPEG4
+
+/* Major version of the driver */
+#undef HWDECODE_DEMOS_MAJOR_VERSION
+
+/* Micro version of the driver */
+#undef HWDECODE_DEMOS_MICRO_VERSION
+
+/* Minor version of the driver */
+#undef HWDECODE_DEMOS_MINOR_VERSION
+
+/* Preversion of the driver */
+#undef HWDECODE_DEMOS_PRE_VERSION
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Defined if DRM is enabled */
+#undef USE_DRM
+
+/* Defined if GLX is enabled */
+#undef USE_GLX
+
+/* Defined if X11 is enabled */
+#undef USE_X11
+
+/* Version number of package */
+#undef VERSION
+
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif
+
+/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
